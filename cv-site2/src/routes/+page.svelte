@@ -3,15 +3,6 @@
 </script>
 
 <style>
-  .main {
-    font-family: Poppins, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-  }
-
   .container {
     font-family: Poppins, sans-serif;
     max-width: 800px;
@@ -69,7 +60,7 @@
     font-size: 0.9rem;
   }
 </style>
-<div class="main">
+
 <div class="container">
   <!-- Header Section -->
   <div class="header">
@@ -138,4 +129,4 @@
     <p>In my free time, I enjoy reading tech blogs, and experimenting with new programming languages.</p>
   </div>
 </div>
-</div>
+
