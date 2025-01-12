@@ -15,21 +15,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Step 2: Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
+      # Step 3: Install dependencies and build
       - name: Install dependencies and build
         run: |
           cd cv-site
           npm ci
           npm run build
 
+      # Step 4: Upload build output as an artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: cv-site/public
 
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
