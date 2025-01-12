@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  body {
+  .main {
     font-family: Poppins, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -69,7 +69,7 @@
     font-size: 0.9rem;
   }
 </style>
-
+<div class="main">
 <div class="container">
   <!-- Header Section -->
   <div class="header">
@@ -137,4 +137,5 @@
     <h2>Hobbies</h2>
     <p>In my free time, I enjoy reading tech blogs, and experimenting with new programming languages.</p>
   </div>
+</div>
 </div>
