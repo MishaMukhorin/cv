@@ -8,7 +8,7 @@ const config = {
 
 		adapter: adapter(),
 		paths: {
-            base: 'hello/',
+            base: '/hello/',
         },
 	}
 };
