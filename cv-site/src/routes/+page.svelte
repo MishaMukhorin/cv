@@ -72,7 +72,7 @@
 <div class="container">
   <!-- Header Section -->
   <div class="header">
-    <h1>Misha Mukhorin</h1>
+    <h1>Mikhail Mukhorin</h1>
     <p>Software Developer | misha.mukhorin@icloud.com | 8 952 848 50 66</p>
     <p><a href="https://github.com/MishaMukhorin" target="_blank">GitHub</a></p>
   </div>
