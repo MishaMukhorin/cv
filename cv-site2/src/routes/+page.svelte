@@ -72,7 +72,7 @@
   <!-- Profile Section -->
   <div class="section">
     <h2>Profile</h2>
-    <p>A motivated and detail-oriented software developer with 5+ years of experience in building web applications. Skilled in JavaScript, Python, and modern frameworks like Svelte.</p>
+    <p>A motivated and detail-oriented software developer with 5- years of experience in building web applications. Skilled in JavaScript, Python, and modern frameworks like Svelte.</p>
   </div>
 
   <!-- Experience Section -->
@@ -81,7 +81,7 @@
     <ul>
       <li>
         <h3>Software Developer - TechCorp</h3>
-        <p><strong>Jan 2020 - Present</strong></p>
+        <p><strong>Jan 2023 - Present</strong></p>
         <ul>
           <li>Developed scalable web applications using React and Node.js.</li>
           <li>Collaborated with cross-functional teams to deliver projects on time.</li>
@@ -90,7 +90,7 @@
       </li>
       <li>
         <h3>Junior Developer - WebSolutions</h3>
-        <p><strong>Aug 2017 - Dec 2019</strong></p>
+        <p><strong>Aug 2020 - Dec 2022</strong></p>
         <ul>
           <li>Assisted in the development of e-commerce websites using JavaScript and PHP.</li>
           <li>Maintained existing applications and fixed bugs to improve usability.</li>
