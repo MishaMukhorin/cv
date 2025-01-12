@@ -22,7 +22,7 @@ jobs:
         run: |
           cd cv-site
           npm ci
-          npm run build
+          npm run dev
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
