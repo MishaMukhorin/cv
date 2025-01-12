@@ -23,6 +23,7 @@ jobs:
       # Install dependencies and build
       - name: Install dependencies and build
         run: |
+          cd cv-site
           npm ci
           npm run build
 
