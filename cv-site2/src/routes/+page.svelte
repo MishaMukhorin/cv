@@ -1,7 +1,6 @@
 <script>
   // No script logic is needed unless you want to add interactivity
 </script>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
   body {
@@ -14,6 +13,7 @@
   }
 
   .container {
+    font-family: Poppins, sans-serif;
     max-width: 800px;
     margin: 20px auto;
     background: #fff;
