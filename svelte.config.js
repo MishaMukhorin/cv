@@ -8,7 +8,7 @@ const config = {
 
 		adapter: adapter(),
 		paths: {
-            base: '', // Adjust this if your GitHub Pages repo uses a custom base path
+            base: '',
         },
 	}
 };
